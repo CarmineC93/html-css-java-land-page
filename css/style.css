@@ -1,4 +1,180 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITIES CLASSES*/
+
+.flex{
+    display: flex;
+}
+
+.pd1{
+    padding: 1rem 0;
+}
+
+.pd2{
+    padding: 2rem 0;
+}
+
+.mrgn1{
+    margin: 1rem 0;
+}
+
+.mrgn2{
+    margin: 2rem 0;
+}
 
 
-padding: 0 28px;
-background: white url() no-repeat 10px 8px;
+
+/* COMMON */
+    html{
+        font-size: 100%;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    a, ul{
+        text-decoration: none;
+        list-style: none;
+        color: inherit;
+    }
+
+/* HEADER */
+
+header{
+    padding: 0 1rem;
+    background-color: #3A75B0;
+
+    height: 65px;
+    /* justify-content: space-between; */
+    align-items: center;
+    line-height: 65px;
+}
+
+.logo{
+    height: 65px;
+}
+
+.hamburger-btn span{
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 5px;
+    background-color: black;
+}
+
+
+nav{
+    display: none;
+}
+
+header ul{
+    gap: 20px;
+}
+
+header label{
+    opacity: 0;
+}
+
+header input{
+    padding: 0 0 0 28px;
+    background: white url(../img/loupe_icon-icons.com_69633.svg) no-repeat 5px 0.5px;
+}
+
+
+
+/* MAIN */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.dev-area{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container .btn{
+    background-color: #198754;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 3rem;
+}
+
+.container span{
+    color:  #006B8F;
+}
+
+.container a{
+    color: inherit;
+}
+
+.col60{
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.col40{
+    padding-bottom: 2rem;
+}
+
+/* second section */
+
+.dev-area{
+    background-color: #7A736E;
+    color: white;
+    padding:1.5rem;
+}
+
+.logo2 img{
+    width: 50px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #EEEEEE;
+    padding: 2rem 4rem;
+}
+
+footer ul{
+    flex-wrap: wrap;
+    gap: 7px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+

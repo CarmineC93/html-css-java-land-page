@@ -7,51 +7,63 @@
     <title>Java Home Page</title>
     <!-- Link style -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- link icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
+    
 </head>
 <body>
     <!-- header -->
-    <header>
-        <ul>
-            <li class="logo"><a href=""></a></li>
-            <li><a href="">Download</a></li>
-            <li><a href="">Developer Resourches</a></li>
-            <li><a href="">Guida in linea</a></li>
-        </ul>
-        <span>
-            <label for="search" class="hide">Cerca</label>
-            <input type="search" id="search" name="cerca" placeholder="Cerca">
-        </span>
+    <header class="flex">
+        <div class="logo">
+            <a href="#"> 
+                <img src="img/java_logo_icon_168609.svg" alt="">
+            </a>
+        </div>
+        <div class="hamburger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="hidden-menu">
+            <ul class="flex">
+                <li><a href="">Download</a></li>
+                <li><a href="">Developer Resourches</a></li>
+                <li><a href="">Guida in linea</a></li>
+            </ul>
+            <span>
+                <label for="search" class="hide">Cerca</label>
+                <input type="search" id="search" name="cerca" placeholder="Cerca">
+            </span>
+        </nav>
+
+
+        
     </header>
     <!-- /header -->
 
     <!-- main -->
     <main>
         <!-- first section -->
-        <section>
-            <div>
-                <h1>Scarica Java per applicazioni desktop</h1>
-                <button>Download di Java</button>
-                <div> 
+        <section class="container flex">
+            <div class="col60 flex">
+                <h1 class="pd2">Scarica Java per applicazioni desktop</h1>
+                <div class="btn mrgn1">Download di Java</div>
+                <div class="pd1"> 
                     <span><a href="">Che cos'è Java?</a></span>
-                    <span></span>
+                    <span>|</span>
                     <span><a href="">Guida alla disinstallazione</a></span>
                 </div>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="col40">
+                <img src="img/java_home_img_1.jpeg" alt="">
             </div>
         </section>
 
         <!-- second section -->
-        <section>
-            <div>icon</div>
-            <h2>Sei uno sviluppatore di software e stai cercando i download JDK?</h2>
-            <div>
-                <button><a href="">Build di accesso anticipato di Open JDK</a></button>
-                <button><a href="">Kit di sviluppo Java SE</a></button>
+        <section class="dev-area pd2">
+            <div class="logo2 mrgn1"><img src="img/java-logo-svgrepo-com.svg" alt=""></div>
+            <h2 class="mrgn1">Sei uno sviluppatore di software e stai cercando i download JDK?</h2>
+            <div class="mrgn1" >
+                <span class="btn"><a href="">Build di accesso anticipato di Open JDK</a></span>
+                <span class="btn"><a href="">Kit di sviluppo Java SE</a></span>
             </div>
         </section>
 
@@ -59,15 +71,16 @@
     <!-- /main -->
 
     <!-- footer -->
-    <footer>
-        <ul>
-            <li>2022 Oracle</li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+    <footer>  
+
+        <div>2022 Oracle</div>
+        <ul class="flex">
+            <li><a href="">Scegli una lingua</a></li>
+            <li><a href="">Supporto</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Preferenze sui cookie</a></li>
+            <li><a href="">Termini e condizioni per l'utilizzo</a></li>
+            <li><a href="">Marchi</a></li>
         </ul>
     </footer>
     <!-- /footer -->

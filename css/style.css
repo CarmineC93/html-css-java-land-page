@@ -64,14 +64,27 @@ header{
     display: block;
     width: 20px;
     height: 2px;
-    margin: 5px;
+    margin: 3px;
     background-color: black;
+
 }
 
+.hamburger-btn{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dx{
+    display: none;
+}
 
 nav{
     display: none;
+    color: white;
+    margin-left: 2rem ;
+    font-size: 1.2rem;
 }
+
 
 header ul{
     gap: 20px;
@@ -85,7 +98,6 @@ header input{
     padding: 0 0 0 28px;
     background: white url(../img/loupe_icon-icons.com_69633.svg) no-repeat 5px 0.5px;
 }
-
 
 
 /* MAIN */
@@ -162,6 +174,8 @@ h1{
 footer{
     background-color: #EEEEEE;
     padding: 2rem 4rem;
+    font-size: 1em;
+    color: #006B8F;
 }
 
 footer ul{

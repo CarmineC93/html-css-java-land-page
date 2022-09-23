@@ -1,0 +1,49 @@
+/* 
+Tablet Screen  768px
+Mobile Screen = 480px 
+JavaScreen = Desktop */
+
+@media screen and (min-width: 768px){
+    .container {
+        width: 100%;
+    }
+
+    .dev-area{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .dev-area h2{
+        width: 31%;
+        font-size: 1em;
+    }
+
+    .footer{
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    .footer div{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .hamburger-btn{
+        display: none
+    }
+    
+    .desk-menu{
+        display: flex;
+    }
+
+    .dx{
+        display: block;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+}

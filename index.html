@@ -7,35 +7,38 @@
     <title>Java Home Page</title>
     <!-- Link style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquerystyle.css">
     
 </head>
 <body>
     <!-- header -->
     <header class="flex">
-        <div class="logo">
-            <a href="#"> 
-                <img src="img/java_logo_icon_168609.svg" alt="">
-            </a>
+        <div class="sx flex">
+            <div class="logo">
+                <a href="#"> 
+                    <img src="img/java_logo_icon_168609.svg" alt="">
+                </a>
+            </div>
+            <div class="hamburger-btn flex">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="desk-menu">
+                <ul class="flex">
+                    <li><a href="">Download</a></li>
+                    <li><a href="">Developer Resourches</a></li>
+                    <li><a href="">Guida in linea</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="hamburger-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <nav class="hidden-menu">
-            <ul class="flex">
-                <li><a href="">Download</a></li>
-                <li><a href="">Developer Resourches</a></li>
-                <li><a href="">Guida in linea</a></li>
-            </ul>
-            <span>
-                <label for="search" class="hide">Cerca</label>
-                <input type="search" id="search" name="cerca" placeholder="Cerca">
-            </span>
-        </nav>
-
-
         
+
+        <span class="dx">
+            <label for="search" class="hide">Cerca</label>
+            <input type="search" id="search" name="cerca" placeholder="Cerca">
+        </span>
+
     </header>
     <!-- /header -->
 
